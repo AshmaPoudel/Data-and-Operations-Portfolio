@@ -8,7 +8,7 @@ SQL & Tableau | Jira & Notion | Business Intelligence | Operational Workflow | G
 ## 👋 About Me
 I am a **Business & Operations Analyst** focused on bridging the gap between data insights and operational efficiency. I specialize in using data to identify bottlenecks and building structured workflows (SOPs) to solve them.
 
-🔗 **[Connect with me on LinkedIn](https://www.linkedin.com/in/ashma-poudel/)** | 🌐 **[View My Live Portfolio Website](https://ashmapoudel.github.io/freemium-product-analysis/)**
+🔗 **[Connect with me on LinkedIn](https://linkedin.com)** | 🌐 **[View My Live Portfolio Website](https://ashmapoudel.github.io/Data-and-Operations-Portfolio/)**
 
 ---
 
@@ -21,7 +21,7 @@ An analysis of 177,000+ user records to uncover retention gaps and revenue volat
 - **Key Insight:** Identified a "Retention Cliff" between Tests 7–10 and proved that consistency, not user traits (breed/personality), drives completion.
 - **Result:** Developed a strategic framework for habit formation and revenue stabilization.
 
-👉 **[View Project 1 Details & Dashboard](https://ashmapoudel.github.io/freemium-product-analysis/)**
+👉 **[View Project 1 Details & Dashboard](https://ashmapoudel.github.io/Data-and-Operations-Portfolio/)**
 
 ---
 
