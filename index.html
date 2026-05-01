@@ -13,13 +13,12 @@
         .social-btn { display: inline-block; padding: 10px 20px; background-color: white; color: #1f2937; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 8px; transition: 0.3s ease; }
         .social-btn:hover { background-color: #e5e7eb; }
         .content { padding: 50px 20px; max-width: 1100px; margin: 0 auto; }
-        .dashboard-container { margin: 30px auto; width: 100%; }
+        .dashboard-container { margin: 30px auto; width: 100%; min-height: 850px; }
         .btn { display: inline-block; padding: 14px 28px; background-color: #2563eb; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; margin: 10px; transition: 0.3s ease; border: none; cursor: pointer; }
         .btn:hover { background-color: #1d4ed8; }
         .analysis-card { background: white; margin: 30px auto; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); max-width: 800px; text-align: left; }
         .highlight-box { background-color: #eff6ff; padding: 15px; border-left: 4px solid #2563eb; margin-top: 15px; font-size: 15px; }
         footer { margin-top: 50px; padding: 40px 20px; background-color: #111827; color: white; font-size: 14px; line-height: 1.6; }
-        /* Style for vertically stacked images */
         .jira-stack { display: flex; flex-direction: column; gap: 20px; align-items: center; margin: 30px 0; }
         .jira-stack img { width: 100%; max-width: 900px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
     </style>
@@ -30,6 +29,7 @@
     <h1>Ashma Poudel | Professional Portfolio</h1>
     <p>Data Analytics (SQL & Tableau) & Operational Management (Jira & Notion)</p>
     <div class="social-buttons">
+        <!-- LINKEDIN LINK UPDATED BELOW -->
         <a href="https://www.linkedin.com/in/ashma-poudel/" target="_blank" class="social-btn">🔗 LinkedIn</a>
         <a href="https://github.com" target="_blank" class="social-btn">💻 GitHub</a>
     </div>
@@ -47,26 +47,40 @@
             <a href="Dognition Business Process Improvement Proposal.pdf" target="_blank" class="btn">📄 View SOP Documentation</a>
         </div>
 
+        <!-- TABLEAU DASHBOARD -->
         <div class="dashboard-container">
             <div class='tableauPlaceholder' id='viz1772636564849' style='position: relative'>
-                <noscript><a href='#'><img alt='Dashboard' src='https://tableau.com' style='border: none' /></a></noscript>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Retention, Habit Formation & Growth Dynamics in a Freemium Model' 
+                             src='https://tableau.com' 
+                             style='border: none' />
+                    </a>
+                </noscript>
                 <object class='tableauViz' style='display:none;'>
                     <param name='host_url' value='https%3A%2F%://tableau.com%2F' /> 
                     <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
                     <param name='name' value='RetentionHabitFormationGrowthDynamicsinaFreemiumModel/Story1' />
                     <param name='tabs' value='no' />
                     <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https://tableau.com' /> 
                     <param name='animate_transition' value='yes' />
                     <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
                 </object>
             </div>
             <script type='text/javascript'>
                 var divElement = document.getElementById('viz1772636564849');
                 var vizElement = divElement.getElementsByTagName('object');
-                vizElement[0].style.width='100%';vizElement[0].style.height='800px';
+                vizElement.style.width='100%';
+                vizElement.style.height='850px';
                 var scriptElement = document.createElement('script');
                 scriptElement.src = 'https://tableau.com';
-                divElement.parentNode.insertBefore(scriptElement, divElement);
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
         </div>
     </section>
@@ -76,12 +90,14 @@
         <h3>🐶 Personality Dimension vs Test Completion</h3>
         <img src="dimensions_tests_completed.jpg" style="width: 100%; border-radius: 8px; margin: 15px 0;">
         <p>Engagement remains consistent across personality types, indicating that product experience—not inherent traits—drives user activity.</p>
+        <div class="highlight-box">💡 <strong>Key Insight:</strong> Product experience, not user traits, drives retention.</div>
     </div>
 
     <div class="analysis-card">
         <h3>🐕 Breed Type vs Test Completion</h3>
         <img src="breed_tests_completed.jpg" style="width: 100%; border-radius: 8px; margin: 15px 0;">
         <p>Breed type has minimal impact on engagement, suggesting broad product-market fit across user segments.</p>
+        <div class="highlight-box">💡 <strong>Key Insight:</strong> Broad product-market fit is established across breeds.</div>
     </div>
 
     <hr style="margin:60px auto; width:80%; border:0; height:1px; background:#d1d5db;">
@@ -93,11 +109,9 @@
             Focused on vendor onboarding and workflow optimization. Managed via Jira for task tracking and Notion for full operational documentation.
         </p>
 
-        <!-- Stacked Jira Images for Clarity -->
         <div class="jira-stack">
             <h4 style="color: #34495e; margin-bottom: 5px;">Jira Kanban Board (Workflow Overview)</h4>
             <img src="jira_1.jpg" alt="Jira Board View">
-            
             <h4 style="color: #34495e; margin-top: 20px; margin-bottom: 5px;">Jira Task Detail (Vendor Onboarding Ticket)</h4>
             <img src="jira_2.jpg" alt="Jira Detailed Task View">
         </div>
